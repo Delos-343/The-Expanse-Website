@@ -22,9 +22,9 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='right'>
-                    <h4>The Expanse</h4>
+                    <h4>About</h4>
                     <p>
-                        "James S. A. Corey is a pen name of two authors,
+                        "James S. A. Corey is the pen name of two authors,
                          Daniel Abraham and Ty Franck, the latter being
                          a personal assistant of the renowned, legendary
                          writer George R. R. Martin."

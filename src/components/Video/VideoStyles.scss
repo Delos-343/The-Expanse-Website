@@ -1,6 +1,5 @@
 
 #video {
-    position: fixed;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -8,7 +7,7 @@
 }
 
 .hero {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     object-fit: contain;
 }
@@ -25,7 +24,7 @@
 }
 
 .hero .content h1 {
-    font-size: 7rem;
+    font-size: 5rem;
     color: #fff;
 }
 
@@ -33,22 +32,36 @@
     font-size: 1rem;
     font-weight: 200;
     text-transform: uppercase;
-    margin-bottom: 3rem;
-    margin-top: 1.6em;
+    padding: 5rem;
     color: #fff;
 }
 
 .hero .btn {
-    margin: 1rem .8rem;
+    margin: 1rem .8rem 0 5rem;
 }
 
 @media screen and (max-width:640px) {
+
+    #video {
+        height: 150vh;
+        object-fit: cover;
+        object-position: center;
+    }
+
     .content h1 {
-        font-size: 3rem;
+        font-size: 1rem;
+        line-height: auto;
     }
 
     .content p {
-        font-size: 1.4rem;
+        font-size: .75rem;
         margin-bottom: 1.6rem;
+        padding: 0;
+        max-width: 100%;
+    }
+
+    .hero .btn {
+        margin: 1rem;
+        display: inline-block;
     }
 }
